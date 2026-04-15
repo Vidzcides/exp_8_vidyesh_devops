@@ -9,4 +9,4 @@ phases:
   post_build:
     commands:
       - echo "Deploying to S3..."
-      - aws s3 sync . s3://YOUR-BUCKET-NAME --delete
+      - aws s3 sync . s3://exp-8-vidyesh --delete
